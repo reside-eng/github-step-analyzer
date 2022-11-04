@@ -1,0 +1,12 @@
+{
+  "extends": "@tsconfig/node18",
+  "compilerOptions": {
+    "noEmit": true,
+    "strict": true,
+    "checkJs": true,
+    "module": "ESNext",
+    "target": "ESNext"
+  },
+  "include": ["**/*"],
+  "exclude": ["node_modules"]
+}
